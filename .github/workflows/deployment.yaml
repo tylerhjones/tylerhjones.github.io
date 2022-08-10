@@ -19,6 +19,9 @@ jobs:
         key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
 
     - name: Build
+      uses: actions/checkout@v2
+      with:
+        persist-credentials: false
       run: npm run build
       env:
         NODE_ENV: production

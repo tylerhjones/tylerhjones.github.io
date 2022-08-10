@@ -17,17 +17,16 @@ jobs:
         path: |
           **/node_modules
         key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
+
     - name: Build
       run: npm run build
       env:
-        - name: NODE_ENV
-          value: production
-        - name: NODE_VERSION
-          value: ${{ matrix.node-version }}
+        NODE_ENV: production
+        NODE_VERSION: ${{ matrix.node-version }}
 
     - name: Deploy with gh-pages
       run: |
         git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/tylerhjones.github.io.git
         npm run deploy -- -u "github-actions-bot <support+actions@github.com>"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

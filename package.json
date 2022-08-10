@@ -21,9 +21,6 @@
     "url": "https://github.com/tylerhjones/tylerhjones.github.io/issues"
   },
   "homepage": "https://github.com/tylerhjones/tylerhjones.github.io",
-  "devDependencies": {
-    "gh-pages": "^4.0.0"
-  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
@@ -31,7 +28,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "gh-pages": "^4.0.0"
   },
   "browserslist": {
     "production": [

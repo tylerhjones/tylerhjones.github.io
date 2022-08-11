@@ -20,7 +20,6 @@
   "bugs": {
     "url": "https://github.com/tylerhjones/tylerhjones.github.io/issues"
   },
-  "homepage": "https://github.com/tylerhjones/tylerhjones.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",

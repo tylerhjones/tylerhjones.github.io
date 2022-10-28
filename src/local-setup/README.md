@@ -1,0 +1,1 @@
+# Things I always do to setup a mac how I like it.

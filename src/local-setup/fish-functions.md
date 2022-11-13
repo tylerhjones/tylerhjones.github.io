@@ -33,6 +33,7 @@ function hig
   eval $x
 end
 ```
+`hig` is a function that greps your command history. It's useful for finding commands you've run before. It's a wrapper around `history | grep`. It takes the same arguments as `grep`. If the first argument is `--all` it will print all of your history instead of just the last 10 commands.
 
 ### epoch
 because i forget date cmd

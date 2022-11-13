@@ -1,4 +1,5 @@
 # Actor Pattern
+
 ```
 #todo: create a better example
 sys = System()

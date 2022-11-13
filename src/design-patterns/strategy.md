@@ -1,4 +1,5 @@
 # Strategy Pattern
+
 ```
 Maze:
     self.strategy

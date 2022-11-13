@@ -1,10 +1,12 @@
 # Plugin Pattern
+
 ```
 # user_code.sc
 
 handle(event):
     do_something(event)
 ```
+
 ```
 import user_code
 

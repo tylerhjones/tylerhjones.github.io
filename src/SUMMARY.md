@@ -7,6 +7,7 @@
     - [Mac apps](./local-setup/apps.md)
     - [Fish Alias](./local-setup/fish-alias.md)
     - [Fish Functions](./local-setup/fish-functions.md)
+    - [Shell](./local-setup/shell.md)
 - [Dev Tooling](./tool-tips/README.md)
     - [make](./tool-tips/make.md)
 - [Design Patterns](./design-patterns/README.md)

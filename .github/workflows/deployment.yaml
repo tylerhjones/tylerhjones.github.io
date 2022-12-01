@@ -27,9 +27,8 @@ jobs:
         # Delete the ref to avoid keeping history.
         git update-ref -d refs/heads/gh-pages
         rm -rf *
+        echo "book.tylerjones.codes" > ../book/CNAME
         mv ../book/* .
-        mv ../static .
-        echo "book.tylerjones.codes" > ./static/CNAME
         git add .
         git commit -m "Deploy $GITHUB_SHA to gh-pages"
         git push --force --set-upstream origin gh-pages

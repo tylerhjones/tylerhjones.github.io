@@ -2,6 +2,7 @@
 
 [Introduction](README.md)
 
+- [Life Hacks](./life-hacks/README.md)
 - [Local Setup](./local-setup/README.md)
     - [Brew Tools](./local-setup/brew-tools.md)
     - [Mac apps](./local-setup/apps.md)

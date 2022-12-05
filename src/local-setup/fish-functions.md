@@ -42,3 +42,13 @@ function epoch
   date +%s
 end
 ```
+
+### noti
+When running a long command which may error out mid-way. This function will notify you when the command stops, so you can check the output.
+```fish
+function noti
+    eval $argv
+    set -l output (echo "display notification \"cmd done\" with title \"$status\" subtitle \"exit:$status\" sound name \"Submarine\"")
+    osascript -e $output
+end
+```

@@ -6,8 +6,12 @@ Window management for mac
 [iterm2](https://iterm2.com/)
 Terminal replacement for mac
 
+~~~admonish success title="Alfred"
 [alfred](https://www.alfredapp.com/)
-Spotlight replacement for mac
+```
+A Spotlight replacement for mac, with more features and a better UX.
+```
+~~~
 
 [vscode](https://code.visualstudio.com/)
 Code editor

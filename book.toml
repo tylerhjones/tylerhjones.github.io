@@ -6,3 +6,4 @@ src = "src"
 
 [output.html]
 additional-css = ["custom.css"]
+title = "Tyler Jones"

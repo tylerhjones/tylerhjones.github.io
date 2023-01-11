@@ -1,0 +1,7 @@
+- add plantuml support https://github.com/sytsereitsma/mdbook-plantuml
+- setup custom theme
+- add widgets
+- add syntax for fish shell
+- add new sections for lang specifc stuff
+- add a labs section
+- update home page with more info about me

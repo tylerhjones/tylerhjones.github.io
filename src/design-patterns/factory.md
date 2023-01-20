@@ -1,16 +1,17 @@
 # Factory Pattern
 
-```
-CreatureFactory:
-    self.count = 0
-    self.mode
-    create():
-        count += 1
-        if self.mode = 'hard'
-            return Creature(hp=count*2)
-        return Creature(hp=count)
+```python
+def CreatureFactory:
+    def __init__(self, modifiers):
+        self.modifiers = modifiers
+
+    def spawn(self, hero):
+        hp = hero.lvl
+        for modifier in self.modifiers:
+            hp += hp * modifier
+        return Creature(hp)
 ```
 
-- split creation from use 
-- great for creating objects with changing seeds
-- or when a property is expensive to load
+~~~admonish info title="Split creation from use"
+Great for creating objects with changing seeds, property abstraction, or when the factory state changes over time.
+~~~

@@ -2,24 +2,24 @@
 
 
 ### [fd](https://github.com/sharkdp/fd)
-
-Faster than `find` and `locate`, easy to use.
+~~~admonish info title="Faster than `find` and `locate`, easy to use."
 ```bash
-~/tmp/fd_example
+~/
 ❯ fd
 foo
 foo/bar
 foo/bar/thing.txt
 foo/test.java
 
-~/tmp/fd_example
+~/
 ❯ fd ar
 foo/bar
 
-~/tmp/fd_example
+~/
 ❯ fd txt
 foo/bar/thing.txt
 ```
+~~~
 
 ### [exa](https://the.exa.website)
 Replacement for `ls` with a lot of nice features.
@@ -31,6 +31,7 @@ A nice GUI for git commit management.
 A nice git diff viewer.
 
 ### [ripgrep](https://github.com/BurntSushi/ripgrep)
+~~~admonish info title="A faster grep"
 A must have search tool.
 ```bash
 rg Thing.+java
@@ -38,6 +39,7 @@ rg -i thing.+java
 rg -u # unrestricted search
 rg -g "*.java" # search only java files
 ```
+~~~
 
 ### [gnu-sed]
 Because the BSD sed is different and I don't want to remember the differences.

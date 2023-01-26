@@ -17,3 +17,5 @@
     - [plugin](./design-patterns/plugin.md)
     - [strategy](./design-patterns/strategy.md)
     - [actor](./design-patterns/actor.md)
+- [Algorithms](./algorithms/README.md)
+  - [0-1 Knapsack](./algorithms/0-1-knapsack.md)

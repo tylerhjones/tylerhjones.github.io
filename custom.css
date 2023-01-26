@@ -1,3 +1,11 @@
 :root {
   --content-max-width: 80%;
 }
+
+.nav-wrapper {
+    content-visibility: hidden;
+}
+
+.chaper-item > a > strong {
+    content-visibility: hidden;
+}

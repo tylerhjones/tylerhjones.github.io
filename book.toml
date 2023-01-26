@@ -9,13 +9,16 @@ src = "src"
 additional-css = ["custom.css", "././mdbook-admonish.css"]
 
 [build]
-create-missing = false
+create-missing = false # if enabled, if the path in summary doesnt exist it will create an empty page
 
 [preprocessor]
 
 [preprocessor.admonish]
 command = "mdbook-admonish" # https://tommilligan.github.io/mdbook-admonish/
 assets_version = "2.0.0" # do not edit: managed by `mdbook-admonish install`
+
+[output.html.fold]
+enable = true # the left navigation elements will fold when clicked
 
 #theme info
 # https://rust-lang.github.io/mdBook/format/theme/index.html

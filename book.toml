@@ -7,6 +7,7 @@ src = "src"
 
 [output.html]
 additional-css = ["custom.css", "././mdbook-admonish.css"]
+no-section-label = true
 
 [build]
 create-missing = false # if enabled, if the path in summary doesnt exist it will create an empty page
